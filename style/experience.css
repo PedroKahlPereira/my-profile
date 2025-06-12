@@ -1,0 +1,28 @@
+.experience {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.experience li {
+  margin-bottom: 1rem;
+}
+
+.experience li .period {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.experience li .period::before {
+  content: '';
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url('../assets/icons-certificates/calendar.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 0.5rem;
+}

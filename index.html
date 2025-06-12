@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio Pedro Kahl Pereira</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+
+  <link rel="stylesheet" href="style/global.css" />
+  <link rel="stylesheet" href="style/header.css" />
+  <link rel="stylesheet" href="style/acordeon.css" />
+  <link rel="stylesheet" href="style/languages.css" />
+  <link rel="stylesheet" href="style/skills.css" />
+  <link rel="stylesheet" href="style/portfolio.css" />
+  <link rel="stylesheet" href="style/certificates.css" />
+  <link rel="stylesheet" href="style/layout.css" />
+  <link rel="stylesheet" href="style/experience.css">
+</head>
+
+<body>
+  <main class="main">
+    <header class="header">
+      <img src="assets/minhaFotojpg.jpeg" alt="Foto de Pedro Kahl Pereira" class="photo" />
+
+      <h1 class="title">Olá,<br />eu sou Pedro Kahl Pereira</h1>
+
+      <div class="information">
+        <p class="study">
+          <a href="https://www.linkedin.com/in/pedro-kahl-523b60321/" target="_blank">Ciência da Computação</a>
+        </p>
+        <p class="location">
+          <a href="https://maps.app.goo.gl/1BAxUTkhrJzxWGnM7" target="_blank">Canoas, RS - BR</a>
+        </p>
+        <p class="phone">
+          <a href="tel:+55519983304430">(51) 9 8330-4430</a>
+        </p>
+        <p class="email">
+          <a href="mailto:pedrokahl06@gmail.com">pedrokahl06@gmail.com</a>
+        </p>
+      </div>
+    </header>
+
+    <section class="acordeon">
+      <button class="trigger" type="button">
+        <h2>Skills</h2>
+      </button>
+      <div class="content">
+        <div class="skills">
+          <section class="tools">
+            <h3>Habilidades profissionais:</h3>
+            <ul>
+              <li>
+                <img src="assets/icons-languages/html.svg" alt="HTML" title="HTML">
+              </li>
+              <li>
+                <img src="assets/icons-languages/css.svg" alt="CSS" title="CSS">
+              </li>
+              <li>
+                <img src="assets/icons-languages/js.svg" alt="JavaScript" title="JavaScript">
+              </li>
+            </ul>
+          </section>
+          <section class="personal">
+            <h3>Habilidades pessoais:</h3>
+            <div class="skills-grid">
+              <ul>
+                <li>Liderança</li>
+                <li>Comunicação</li>
+                <li>Organização</li>
+              </ul>
+              <ul>
+                <li>Facilidade de aprendizado</li>
+                <li>Trabalho em equipe</li>
+                <li>Proatividade</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="acordeon">
+      <button class="trigger" type="button">
+        <h2>Idiomas</h2>
+      </button>
+      <div class="content">
+        <ul class="languages">
+          <li>Português</li>
+          <li>Inglês</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="acordeon">
+      <button class="trigger" type="button">
+        <h2>Portfólio</h2>
+      </button>
+      <div class="content">
+        <ul class="portfolio">
+          <li>
+            <h3 class="title github">Pokedex Pokemon</h3>
+            <a href="https://pokedexgeracao1.netlify.app/" target="_blank">
+              https://pokedexgeracao1.netlify.app/
+            </a>
+          </li>
+          <li>
+            <h3 class="title github">Caixa Eletrônico</h3>
+            <a href="https://github.com/PedroKahlPereira/caixa-eletronico" target="_blank">
+              https://github.com/PedroKahlPereira/caixa-eletronico
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="acordeon">
+      <button class="trigger" type="button">
+        <h2>Formação</h2>
+      </button>
+      <div class="content">
+        <h4 class="education-section-title">Minhas conquistas na DIO:</h4>
+        <div class="certificates">
+          <img src="assets/icons-certificates/css.svg" alt="CSS icon" />
+          <img src="assets/icons-certificates/html.svg" alt="HTML icon" />
+          <img src="assets/icons-certificates/js.svg" alt="JS icon" />
+        </div>
+        <ul class="education-list">
+          <li>
+            <span class="education-title">dio.me</span>
+            <span class="education-complement">
+              <a href="https://web.dio.me/users/pedrokahl06?tab=skills&page=1" target="_blank">
+                Acesse meu perfil na DIO 
+              </a>
+            </span>
+          </li>
+          <li>
+            <span class="education-title">Ciência da Computação-Unilasalle</span>
+            <span class="education-complement">Canoas, RS -2025/2</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="acordeon">
+      <button class="trigger" type="button">
+        <h2>Experiência Profissional</h2>
+      </button>
+      <div class="content">
+        <ul class="experience">
+          <li>
+            <h3 class="experience-title">Desenvolvedor Front-end</h3>
+            <p class="period">Março 2025 - Atualmente</p>
+            <p>Atuo como desenvolvedor front-end, utilizando tecnologias como HTML, CSS e JavaScript para criar interfaces de usuário responsivas e dinâmicas.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/acordeon.js"></script>
+</body>
+</html>
